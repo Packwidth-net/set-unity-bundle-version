@@ -24,7 +24,7 @@ jobs:
 
       - name: Set version
         id: package_version
-        uses: KageKirin/set-unity-bundle-version@v0
+        uses: Packwidth-net/set-unity-bundle-version@v0
         with:
           version: ${{ github.ref_name }}
 
